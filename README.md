@@ -1,4 +1,3 @@
-NEOVIM PREVIEW
 ![](screenshots/nvim.png)
 
 
