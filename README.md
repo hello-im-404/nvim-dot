@@ -1,5 +1,6 @@
 NEOVIM PREVIEW
-![NeoVim/ ](screenshots/nvim.png)
+![NeoVim ]
+(screenshots/nvim.png)
 
 
 ! ! ! INSTALLATION! ! !
