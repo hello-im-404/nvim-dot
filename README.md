@@ -1,5 +1,5 @@
 NEOVIM PREVIEW
-[a](screenshots/nvim.png)
+![NeoVim/ ](screenshots/nvim.png)
 
 
 ! ! ! INSTALLATION! ! !
@@ -15,14 +15,14 @@ f2 - file tree
 
 
 vim guide:
-try vimtutor
-how to exit from vim? ESC -> :q -> Enter -> done!\n
-how to write + exit? ESC -> :wq -> Enter -> done!\n
-command mode - ESC\n
-insert mode - a/i\n
-visual mode - v\n
-copy - y(in command mode)\n
-paste - p(in command mode)\n
-undo - u(in command mode)\n
-dd - delete 1 string(u can delete many str, just type 'x'dd) x - number string which u want to delete\n
-hjkl(in command mode/visual mode)\n
+try vimtutor<br>
+how to exit from vim? ESC -> :q -> Enter -> done!<br>
+how to write + exit? ESC -> :wq -> Enter -> done!<br>
+command mode - ESC<br>
+insert mode - a/i<br>
+visual mode - v<br>
+copy - y(in command mode)<br>
+paste - p(in command mode)<br>
+undo - u(in command mode)<br>
+dd - delete 1 string(u can delete many str, just type 'x'dd) x - number string which u want to delete<br>
+hjkl(in command mode/visual mode)
