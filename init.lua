@@ -24,6 +24,17 @@ vim.opt.number = true
 
 -- Плагины
 require("lazy").setup({
+  -- Иконки для файлов
+  {
+    "nvim-tree/nvim-web-devicons",
+    config = function()
+      require("nvim-web-devicons").setup({
+        -- можно переопределить конкретные иконки если нужно
+        -- default = true
+      })
+    end
+  },
+
   -- Treesitter (подсветка)
   {
     "nvim-treesitter/nvim-treesitter",
@@ -44,11 +55,38 @@ require("lazy").setup({
     event = "InsertEnter",
     config = true,
   },
+  
   -- Файловый менеджер
   {
     "nvim-tree/nvim-tree.lua",
+    dependencies = { "nvim-tree/nvim-web-devicons" }, 
     config = function()
-      require("nvim-tree").setup()
+      require("nvim-tree").setup({
+        renderer = {
+          icons = {
+            glyphs = {
+              default = "",
+              symlink = "",
+              folder = {
+                arrow_closed = "",
+                arrow_open = "",
+                default = "",
+                open = "",
+                empty = "",
+                empty_open = "",
+                symlink = "",
+                symlink_open = "",
+              },
+            },
+            show = {
+              file = true,
+              folder = true,
+              folder_arrow = true,
+              git = true,
+            },
+          },
+        },
+      })
       vim.keymap.set("n", "<F2>", ":NvimTreeToggle<CR>")
     end,
   },
