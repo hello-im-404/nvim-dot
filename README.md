@@ -7,14 +7,6 @@ git clone https://github.com/hello-im-404/nvim-dot.git
 cd nvim-dot
 ./install.sh
 ```
-or 
-
-```bash
-git clone https://github.com/hello-im-404/nvim-dot.git ~/.config/nvim
-rm -rf ~/.config/nvim/README.md
-rm -rf ~/.config/nvim/screenshots
-```
-
 ! ! ! USAGE ! ! !
 f2 - file tree
 
